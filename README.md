@@ -4,6 +4,8 @@ Transmission post-completion script for unraring and copying files.
 In essence it copies or extracts files to another location after a download is complete.
 My use case is fairly niche in that for TV i'm only grabbing a specific release, and the 'fights' i'm downloading are coming rar'd so there is some extract steps for those. 
 
+I was using Docker for my transmission install so just be mindful of paths that you might need to map, or permissions that will be required for file copies.  Docker added a layer of complexity, but nothing too serious. 
+
 I'm sharing this because there was a lot of different example snippets for this, but it took a bit of trial and error to get it where I needed it.  Hopefully this comes in handy for others when creating their own scripts. 
 
 
